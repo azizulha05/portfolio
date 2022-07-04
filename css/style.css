@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    background-image: url(/image/05.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+
+.container-text {
+    width: 50%;
+    margin-left: 100px;
+    text-align: justify;
+}
+
+.container-text h1 {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    font-weight: 900;
+    font-size: 2em;
+}
+
+.container-text h1 span {
+    color: blue;
+}
+
+.container-text p {
+    margin: 20px 0 40px 0;
+}
+
+.container-img {
+    width: 50%;
+    margin-left: 300px;
+}
+
+.container-img img {
+    height: 100vh;
+}
+
+.container-text a {
+    background-color: rgb(59, 59, 163);
+    padding: 10px 40px;
+    color: #fff;
+    font-weight: 700;
+    text-decoration: none;
+    margin-left: 25%;
+    border-radius: 10px;
+    transition: .5s;
+}
+
+.container-text a:hover {
+    background-color: blue;
+    color: orange;
+}
+
+.about {
+    background-image: url(/image/11.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    width: 100%;
+    height: 100vh;
+
+}
+
+.about-img {
+    width: 50%;
+    margin-left: 120px;
+
+
+}
+
+.about-img img {
+    height: 100vh;
+
+
+}
+
+.about-text {
+    width: 50%;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: justify;
+}
+
+.about-text h1 {
+    margin-top: 150px;
+    margin-bottom: 30px;
+    font-weight: 900;
+    font-size: 2em
+}
+
+.about-text p {
+    margin: 30px 0;
+}
+
+.about-text a {
+    background-color: rgb(59, 59, 163);
+    padding: 10px 40px;
+    color: #fff;
+    font-weight: 700;
+    text-decoration: none;
+    margin-left: 25%;
+    border-radius: 10px;
+    transition: .5s;
+}
+
+.about-text a:hover {
+    background-color: blue;
+    color: orange;
+}
+
+.skill-develop {
+
+    background-image: url(/image/05.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    height: 100vh;
+}
+
+.skill-develop h1 {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.skill {
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    margin-left: 10%;
+
+}
+
+.development {
+    width: 50%;
+    margin: 50px 40px;
+    background-color: beige;
+    height: 400px;
+    text-align: justify;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px black;
+
+}
+
+.development h1 {
+    margin: 30px 0;
+}
+
+.development p {
+    margin-top: 20px;
+}
+
+#fullStrack {
+    border-left: 10px solid orange;
+}
+
+#fullStrack-2 {
+    border-left: 10px solid blue;
+}
+
+footer p {
+    text-align: center;
+    margin-bottom: 20px;
+}
